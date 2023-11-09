@@ -1,7 +1,9 @@
-### Collaborative Technical Writing 
+### Project Managment and Collaborative Technical Writing 
 
 Tools used : 
 
-Templates : LaTeX and MSWord
+Project Management : Kanban
 
-Referencing : EndNote and Zotero Library
+Document Templates : LaTeX and MSWord
+
+Citation Tool : EndNote and Zotero
