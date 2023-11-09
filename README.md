@@ -63,11 +63,13 @@ a comprehensive approach to this problem with our interactive multi-page data vi
 https://github.com/cse512-23s/Tuning-PlaySite
 
 
-### 8. Collaborative Technical Writing 
+### 8. Project Managment and Collaborative Technical Writing
 
-Tools used : 
+Tools used :
 
-Templates : LaTeX and MSWord
+Project Management : Kanban
 
-Referencing : EndNote and Zotero Library
+Document Templates : LaTeX and MSWord
+
+Citation Tool : EndNote and Zotero
 
