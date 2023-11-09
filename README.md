@@ -5,11 +5,14 @@ Vision, NLP, 3DVision, ML for Robotics, Traditional ML, Deep Learning, MLOps, Co
 
 Design and implementation of end-to-end perception pipeline for precise EELS  navigation in perceptually challenging and extreme environments such as shadows, occlusions, low light, snow, fog and rain using raw data (LiDAR, Stereo and IMU). 
 
+
 ### 2. Question Answering on SQuAD using BiDAF and traditional ML(Ongoing)
+
 
 ### 3. UW - NASA/JPL Machine Learning for Extreme Traverse Lunar Explorer
 
 This project deploys Machine Learning algorithms to enhance the onfield data characterization capabilities of the NASA-JPL EELS (Extant Exobiology Life Surveyor) robot,  performs semantic terrain segmentation on the vision dataset collected by EELS in ice crevasses and glacial-like extreme subterranean environments, combats limited data availability in space missions, works with real unannotated data from JPL and inferences on sensor-fusion requirements.
+
 
 ### 4. SimCLR+DCL, Self-Supervised Constrastive Representation Learning 
 
@@ -29,3 +32,7 @@ DCL efficiently generates vision representations at lower batch sizes with
 computational savings and good performance metrics that can be used for 
 several downstream vision tasks.
 
+
+### 5. Machine Learning for 5G Wireless Systems Beam Selection using XGBoost
+
+5G and MIMO(Multiple Input Multiple Output) utilize radio frequencies in the sub-6 GHz range and the millimeter-wave (mmWave) frequency range (30-300GHz). These smaller wavelengths (in millimeters) allow to design tinier antennas and, in turn, pack many more at both transmitter and receiver ends. Thus, there are multiple antenna array elements at both the transmitter and receiver ends. Selecting the best beam pair out of these becomes essential for maximum information gain. To unleash the full power of mmWave communications, a prominent challenge consists in reducing the overhead introduced by the beam selection (or alignment) procedures. This project proposes a machine learning algorithm to reduce this overhead using XGBoost with SMOTE. The data used is from the Raymobtime datasets s008 and s009 with GPS, LiDAR, and image input features. The proposed algorithm outputs a prediction of top k(k=10) best beam pairs for every receiver input, thus providing the communication system with a complementary, out-of-band information to reduce the processing overhead. The final model combats overfitting with early stopping and uses random search cross-validation for hyperparameter tuning. The proposed algorithm has a top 10 accuracy of 94.2%, beating the SOA by 3.2% and has a computational cost of 0.25 hours, which is 3x lesser than SoA. Also, the proposed algorithm reaches accuracy of 98% early at k=20 instead of at k=30 for SoA. The top 20 accuracy with SMOTE to reduce minority class misclassifications is reasonable at 96.5%.
