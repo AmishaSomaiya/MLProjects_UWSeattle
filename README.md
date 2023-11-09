@@ -62,3 +62,12 @@ a comprehensive approach to this problem with our interactive multi-page data vi
 
 https://github.com/cse512-23s/Tuning-PlaySite
 
+
+### 8. Collaborative Technical Writing 
+
+Tools used : 
+
+Templates : LaTeX and MSWord
+
+Referencing : EndNote and Zotero Library
+
